@@ -273,12 +273,12 @@ body[lang="zh"], html[lang="zh"] .home-modern {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: calc(100vw / 3);
   z-index: 2;
   position: relative;
 }
 .hm-card h2, .hm-card-content h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin-bottom: 30px;
   font-weight: 400;
   letter-spacing: 0.03em;
